@@ -1,0 +1,1164 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>
+        WebCreative
+    </title>
+    <style>
+        /* Reset CSS */
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+            line-height: 1.6;
+            color: #333;
+        }
+
+        img {
+            max-width: 100%;
+            height: auto;
+        }
+        /* Add your custom styles here */
+    </style>
+    <script src="https://cdn.tailwindcss.com"></script>
+</head>
+<body>
+    <div id="root">
+        <nav id="header" class="bg-gray-900 shadow-md fixed w-full top-0 z-50">
+            <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8" id="el-rfbegtxg">
+                <div class="flex justify-between h-16" id="el-s7yhbp46">
+                    <!-- Logo -->
+                    <div class="flex-shrink-0 flex items-center" id="el-xrsxdcuk">
+                        <a href="#" class="font-bold text-xl text-indigo-400" id="el-uy372nnk">WebCreative</a>
+                    </div>
+
+                    <!-- Desktop Navigation -->
+                    <div class="hidden md:ml-6 md:flex md:items-center md:space-x-4" id="el-sjjysaph">
+                        <ul class="flex space-x-4" id="el-3jggx520">
+                            <li id="el-dnup3exq"><a href="index.html" class="px-3 py-2 rounded-md text-sm font-medium text-gray-300 hover:text-white hover:bg-gray-800 transition duration-300" id="el-g5im889a">Accueil</a></li>
+                            <li id="el-qc5cw075"><a href="Mes Réalisations.html" class="px-3 py-2 rounded-md text-sm font-medium text-gray-300 hover:text-white hover:bg-gray-800 transition duration-300" id="el-erpqvlbd">Mes réalisations</a></li>
+                            <li id="el-rvxfvxlw"><a href="tarifs.html" class="px-3 py-2 rounded-md text-sm font-medium text-gray-300 hover:text-white hover:bg-gray-800 transition duration-300" id="el-0r3ixxr8">Tarifs</a></li>
+                            <li id="el-ykp0g5a5"><a href="#" class="px-3 py-2 rounded-md text-sm font-medium text-gray-300 hover:text-white hover:bg-gray-800 transition duration-300" id="el-f349m33n">Contact</a></li>
+                        </ul>
+                    </div>
+
+                    <!-- Right Navigation Items -->
+                    <div class="hidden md:flex items-center space-x-4" id="el-hsoa9mfp">
+                        <a href="#" class="text-gray-400 hover:text-white transition duration-300" aria-label="Search" id="el-jp7ssvsu">
+                            <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5" fill="none" viewBox="0 0 24 24" stroke="currentColor" id="el-e1xpgdrw">
+                                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M21 21l-6-6m2-5a7 7 0 11-14 0 7 7 0 0114 0z" id="el-okjd7e42"></path>
+                            </svg>
+                        </a>
+                        <a href="#" class="text-gray-400 hover:text-white transition duration-300" aria-label="Shopping cart" id="el-zqdszeet">
+                            <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5" fill="none" viewBox="0 0 24 24" stroke="currentColor" id="el-2mckyqju">
+                                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M3 3h2l.4 2M7 13h10l4-8H5.4M7 13L5.4 5M7 13l-2.293 2.293c-.63.63-.184 1.707.707 1.707H17m0 0a2 2 0 100 4 2 2 0 000-4zm-8 2a2 2 0 11-4 0 2 2 0 014 0z" id="el-lam5ohrs"></path>
+                            </svg>
+                        </a>
+                        <a href="#" class="inline-flex items-center px-4 py-2 border border-transparent text-sm font-medium rounded-md text-white bg-indigo-700 hover:bg-indigo-800 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-indigo-500 transition duration-300" id="el-sk7m872p">
+                            Démarrer un projet
+                        </a>
+                    </div>
+
+                    <!-- Mobile menu button -->
+                    <div class="flex md:hidden items-center" id="el-0ouw7dv4">
+                        <button type="button" class="mobile-menu-button inline-flex items-center justify-center p-2 rounded-md text-gray-400 hover:text-white hover:bg-gray-800 focus:outline-none focus:ring-2 focus:ring-inset focus:ring-indigo-500" aria-expanded="false" aria-controls="mobile-menu" aria-label="Main menu" id="el-q7qpzitw">
+                            <svg class="block h-6 w-6" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor" aria-hidden="true" id="el-ex2yfmtg">
+                                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h16M4 18h16" id="el-qorm9l92"></path>
+                            </svg>
+                            <svg class="hidden h-6 w-6" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor" aria-hidden="true" id="el-43vr4dyy">
+                                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M6 18L18 6M6 6l12 12" id="el-1h9ila5u"></path>
+                            </svg>
+                        </button>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Mobile menu, show/hide based on menu state. -->
+            <div class="md:hidden hidden" id="mobile-menu">
+                <ul class="px-2 pt-2 pb-3 space-y-1 sm:px-3" id="el-1m2ei0e6">
+                    <li id="el-0ywou2xb"><a href="#" class="block px-3 py-2 rounded-md text-base font-medium text-gray-300 hover:text-white hover:bg-gray-800" id="el-e5gpt629">Accueil</a></li>
+                    <li id="el-zb37i8vt"><a href="#" class="block px-3 py-2 rounded-md text-base font-medium text-gray-300 hover:text-white hover:bg-gray-800" id="el-242pwxmf">Services</a></li>
+                    <li id="el-l1hzc1y9"><a href="#" class="block px-3 py-2 rounded-md text-base font-medium text-gray-300 hover:text-white hover:bg-gray-800" id="el-t9iw0wvv">Portfolio</a></li>
+                    <li id="el-0sq38k79"><a href="#" class="block px-3 py-2 rounded-md text-base font-medium text-gray-300 hover:text-white hover:bg-gray-800" id="el-il28un84">Tarifs</a></li>
+                    <li id="el-m2ly4jyg"><a href="#" class="block px-3 py-2 rounded-md text-base font-medium text-gray-300 hover:text-white hover:bg-gray-800" id="el-t0334yf4">Contact</a></li>
+                    <li id="el-gef328p6"><a href="#" class="block px-3 py-2 rounded-md text-base font-medium text-indigo-400 hover:text-indigo-300" id="el-aidjo5kk">Démarrer un projet</a></li>
+                </ul>
+            </div>
+        </nav>
+    </div>
+
+    <htmlcode id="el-nz2z7g0i">
+        <div id="root">
+            <section id="hero" class="pt-24 pb-12 md:py-32 bg-neutral-900 text-white min-h-[70vh] flex items-center relative overflow-hidden">
+                <!-- Background gradient effect -->
+                <div class="absolute inset-0 bg-gradient-to-br from-purple-900 to-neutral-900 opacity-70" id="el-imqfsqux"></div>
+
+                <!-- Animated particles -->
+                <div class="absolute inset-0 z-0" id="el-fym1lnxe">
+                    <div id="particles-js" class="w-full h-full"><canvas class="particles-js-canvas-el" width="1330" height="758" style="width: 100%; height: 758px; padding-bottom: 0px;" id="el-83ynxhff"></canvas></div>
+                </div>
+
+                <div class="container mx-auto px-4 py-16 relative z-10" id="el-crkvsnn7">
+                    <div class="flex flex-col md:flex-row items-center justify-between" id="el-kdqo4bml">
+                        <div class="md:w-1/2 mb-10 md:mb-0" id="el-v6vxkokt">
+                            <h1 class="text-4xl md:text-5xl lg:text-6xl font-bold mb-4 animate__animated animate__fadeInUp" id="el-5c51qleb">
+                                Créez votre présence en ligne <span class="text-purple-400" id="el-guv8zla1">professionnelle</span>
+                            </h1>
+                            <p class="text-xl md:text-2xl mb-6 text-gray-300 animate__animated animate__fadeInUp animate__delay-1s" id="el-l5h887yd">
+                                Des sites web sur mesure pour mettre en valeur votre talent, vos services et votre entreprise
+                            </p>
+                            <div class="flex flex-wrap gap-4 animate__animated animate__fadeInUp animate__delay-2s" id="el-j7zfrwz9">
+                                <a href="#quote" class="bg-purple-600 hover:bg-purple-700 text-white font-semibold px-6 py-3 rounded-lg transition duration-300 shadow-lg hover:shadow-purple-600/30" id="el-g0886cju">
+                                    Découvrir nos services
+                                </a>
+                                <a href="#pricing" class="bg-transparent border-2 border-purple-400 hover:bg-purple-400/20 text-white font-semibold px-6 py-3 rounded-lg transition duration-300" id="el-4e9aid5x">
+                                    Voir les tarifs
+                                </a>
+                            </div>
+                        </div>
+                        <div class="md:w-1/2 flex justify-center animate__animated animate__fadeIn animate__delay-1s" id="el-cpdutakn">
+                            <div class="relative w-full max-w-md" id="el-cl0x0t0x">
+                                <!-- Website showcase mockup -->
+                                <div class="bg-neutral-800 rounded-lg p-3 shadow-2xl transform rotate-2 hover:rotate-0 transition-transform duration-300" id="el-2ugpe4ux">
+                                    <div class="rounded-md overflow-hidden border-2 border-neutral-700" id="el-aex1fm11">
+                                        <div class="bg-neutral-800 h-6 flex items-center px-2" id="el-ykd7265i">
+                                            <div class="flex space-x-1" id="el-79axnxjw">
+                                                <div class="w-2 h-2 rounded-full bg-red-500" id="el-nsmf8j5e"></div>
+                                                <div class="w-2 h-2 rounded-full bg-yellow-500" id="el-8hwxhsxc"></div>
+                                                <div class="w-2 h-2 rounded-full bg-green-500" id="el-cg7s4pv9"></div>
+                                            </div>
+                                        </div>
+                                        <div class="h-56 md:h-64 bg-gradient-to-br from-purple-400 to-indigo-600 flex items-center justify-center" id="el-aoh98ok7">
+                                            <span class="text-white font-bold" id="el-d9ni24ep">Votre Site Web</span>
+                                        </div>
+                                    </div>
+                                </div>
+                                <!-- Decorative elements -->
+                                <div class="absolute -bottom-4 -left-4 w-24 h-24 bg-gradient-to-br from-pink-500 to-purple-500 rounded-lg opacity-70 blur-lg -z-10" id="el-pimnwuq0"></div>
+                                <div class="absolute -top-4 -right-4 w-20 h-20 bg-gradient-to-br from-blue-500 to-purple-500 rounded-full opacity-70 blur-lg -z-10" id="el-o6dz4dsg"></div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Feature highlights -->
+                    <div class="grid grid-cols-1 md:grid-cols-3 gap-6 mt-12 pt-8 border-t border-neutral-700 animate__animated animate__fadeInUp animate__delay-3s" id="el-10h04ryt">
+                        <div class="bg-neutral-800/50 p-6 rounded-lg backdrop-blur-sm hover:bg-neutral-800 transition-all duration-300" id="el-9jml2rie">
+                            <div class="text-purple-400 mb-2" id="el-jymk6zoc">
+                                <svg xmlns="http://www.w3.org/2000/svg" class="h-10 w-10" fill="none" viewBox="0 0 24 24" stroke="currentColor" id="el-toiu3vga">
+                                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9.75 17L9 20l-1 1h8l-1-1-.75-3M3 13h18M5 17h14a2 2 0 002-2V5a2 2 0 00-2-2H5a2 2 0 00-2 2v10a2 2 0 002 2z" id="el-9q96cqcr"></path>
+                                </svg>
+                            </div>
+                            <h3 class="text-xl font-semibold mb-2" id="el-rpjp7hpr">Sites Web Professionnels</h3>
+                            <p class="text-gray-400" id="el-rse2cqrs">Portfolio, site vitrine ou blog conçu selon vos besoins spécifiques</p>
+                        </div>
+
+                        <div class="bg-neutral-800/50 p-6 rounded-lg backdrop-blur-sm hover:bg-neutral-800 transition-all duration-300" id="el-xemkarfx">
+                            <div class="text-purple-400 mb-2" id="el-dfz8jei1">
+                                <svg xmlns="http://www.w3.org/2000/svg" class="h-10 w-10" fill="none" viewBox="0 0 24 24" stroke="currentColor" id="el-6cli2knt">
+                                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 15v2m-6 4h12a2 2 0 002-2v-6a2 2 0 00-2-2H6a2 2 0 00-2 2v6a2 2 0 002 2zm10-10V7a4 4 0 00-8 0v4h8z" id="el-693dash5"></path>
+                                </svg>
+                            </div>
+                            <h3 class="text-xl font-semibold mb-2" id="el-4smjk606">Hébergement Flexible</h3>
+                            <p class="text-gray-400" id="el-aftillm3">GitHub Pages gratuit ou domaine personnalisé à seulement 3€/mois</p>
+                        </div>
+
+                        <div class="bg-neutral-800/50 p-6 rounded-lg backdrop-blur-sm hover:bg-neutral-800 transition-all duration-300" id="el-323qu92o">
+                            <div class="text-purple-400 mb-2" id="el-gsrou8zd">
+                                <svg xmlns="http://www.w3.org/2000/svg" class="h-10 w-10" fill="none" viewBox="0 0 24 24" stroke="currentColor" id="el-mpq08nvc">
+                                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M7 21a4 4 0 01-4-4V5a2 2 0 012-2h4a2 2 0 012 2v12a4 4 0 01-4 4zm0 0h12a2 2 0 002-2v-4a2 2 0 00-2-2h-2.343M11 7.343l1.657-1.657a2 2 0 012.828 0l2.829 2.829a2 2 0 010 2.828l-8.486 8.485M7 17h.01" id="el-ivygdiqj"></path>
+                                </svg>
+                            </div>
+                            <h3 class="text-xl font-semibold mb-2" id="el-rdi346ic">Design Personnalisé</h3>
+                            <p class="text-gray-400" id="el-10rq00z6">Designs modernes et adaptatifs qui reflètent votre identité</p>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Scroll down indicator -->
+                <div class="absolute bottom-8 left-1/2 transform -translate-x-1/2 animate__animated animate__fadeIn animate__delay-3s animate-bounce" id="el-e8lrtbl9">
+                    <a href="#services" class="text-white flex flex-col items-center" id="el-ze8rbfq2">
+                        <span class="text-sm mb-2" id="el-sktb43jv">Découvrir plus</span>
+                        <svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6" fill="none" viewBox="0 0 24 24" stroke="currentColor" id="el-i8sedvhb">
+                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 14l-7 7m0 0l-7-7m7 7V3" id="el-3jbszfhm"></path>
+                        </svg>
+                    </a>
+                </div>
+            </section>
+        </div>
+
+        <script src="https://cdn.jsdelivr.net/npm/particles.js@2.0.0/particles.min.js"></script>
+        <script>
+            document.addEventListener('DOMContentLoaded', function () {
+                // Initialize particles.js
+                if (typeof particlesJS !== 'undefined') {
+                    particlesJS('particles-js', {
+                        particles: {
+                            number: { value: 80, density: { enable: true, value_area: 800 } },
+                            color: { value: '#ffffff' },
+                            shape: { type: 'circle' },
+                            opacity: { value: 0.1, random: true },
+                            size: { value: 3, random: true },
+                            line_linked: { enable: true, distance: 150, color: '#ffffff', opacity: 0.1, width: 1 },
+                            move: { enable: true, speed: 1, direction: 'none', random: true, straight: false, out_mode: 'out' }
+                        },
+                        interactivity: {
+                            detect_on: 'canvas',
+                            events: {
+                                onhover: { enable: true, mode: 'grab' },
+                                onclick: { enable: true, mode: 'push' },
+                                resize: true
+                            }
+                        },
+                        retina_detect: true
+                    });
+                }
+            });
+        </script>
+    </htmlcode>
+    <htmlcode id="el-tbddl8pm">
+        <div id="root">
+            <section id="pricing" class="py-16 bg-neutral-100 dark:bg-neutral-800">
+                <div class="container mx-auto px-4" id="el-11wnaqbu">
+                    <div class="text-center mb-16 max-w-3xl mx-auto" id="el-emblofbw">
+                        <h2 class="text-3xl md:text-4xl font-bold mb-4 text-neutral-900 dark:text-white animate__animated animate__fadeIn" style="visibility: visible;" id="el-vwwha9ab">Tarifs transparents pour tous vos besoins</h2>
+                        <p class="text-lg text-neutral-700 dark:text-neutral-300 animate__animated animate__fadeIn animate__delay-1s" style="visibility: visible;" id="el-y4mh0ayi">Choisissez la formule qui correspond à votre projet et à votre budget. Pas de frais cachés, juste des services de qualité.</p>
+                    </div>
+
+
+                   
+
+                    <div class="grid grid-cols-1 md:grid-cols-3 gap-8" id="el-p7vghob2">
+                        <!-- Basic Plan -->
+                        <div class="bg-white dark:bg-neutral-700 rounded-xl shadow-lg overflow-hidden transition-transform duration-300 hover:scale-105 animate__animated animate__fadeInUp" style="visibility: visible;" id="el-43u9p4ad">
+                            <div class="p-8 border-b border-neutral-200 dark:border-neutral-600" id="el-s8efdr48">
+                                <h3 class="text-xl font-bold text-neutral-900 dark:text-white mb-2" id="el-6r8nbwqh">Portfolio Simple</h3>
+                                <p class="text-neutral-600 dark:text-neutral-300 mb-4" id="el-xkv0n7b3">Idéal pour les freelances et créatifs</p>
+                                <div class="flex items-baseline" id="el-eti6zek5">
+                                    <span class="text-4xl font-extrabold text-neutral-900 dark:text-white" id="basic-price">299€</span>
+                                    <span class="ml-2 text-neutral-500 dark:text-neutral-400 text-sm" id="basic-period">paiement unique</span>
+                                </div>
+                                <p class="text-neutral-500 dark:text-neutral-400 text-sm mt-1" id="el-vtewd37i"><span id="basic-monthly" class="hidden">ou 29€/mois pendant 12 mois</span></p>
+                            </div>
+                            <div class="p-8" id="el-8q06qcg9">
+                                <ul class="space-y-4" id="el-dx2s6rkm">
+                                    <li class="flex items-start" id="el-9o2klrwo">
+                                        <svg class="w-5 h-5 text-green-500 mr-2 mt-0.5" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg" id="el-k5xr97uy">
+                                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7" id="el-3pmjot8v"></path>
+                                        </svg>
+                                        <span class="text-neutral-700 dark:text-neutral-200" id="el-gbvnamvl">Design responsive (mobile, tablette, PC)</span>
+                                    </li>
+                                    <li class="flex items-start" id="el-aniumxdv">
+                                        <svg class="w-5 h-5 text-green-500 mr-2 mt-0.5" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg" id="el-1la6df5f">
+                                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7" id="el-cikt1j6o"></path>
+                                        </svg>
+                                        <span class="text-neutral-700 dark:text-neutral-200" id="el-sm4ghb9i">Jusqu'à 5 sections personnalisées</span>
+                                    </li>
+                                    <li class="flex items-start" id="el-fkjyrxrr">
+                                        <svg class="w-5 h-5 text-green-500 mr-2 mt-0.5" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg" id="el-ezv03bsv">
+                                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7" id="el-fmy65uo3"></path>
+                                        </svg>
+                                        <span class="text-neutral-700 dark:text-neutral-200" id="el-mvsehi90">Formulaire de contact</span>
+                                    </li>
+                                    <li class="flex items-start" id="el-k4oqqxjv">
+                                        <svg class="w-5 h-5 text-green-500 mr-2 mt-0.5" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg" id="el-ca03dtb3">
+                                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7" id="el-mqeiktjq"></path>
+                                        </svg>
+                                        <span class="text-neutral-700 dark:text-neutral-200" id="el-qmfdti6w">Hébergement GitHub Pages (gratuit)</span>
+                                    </li>
+                                    <li class="flex items-start text-neutral-500 dark:text-neutral-400" id="el-ullgdz9j">
+                                        <svg class="w-5 h-5 text-neutral-400 mr-2 mt-0.5" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg" id="el-c6i4m1pk">
+                                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M6 18L18 6M6 6l12 12" id="el-pm268vfq"></path>
+                                        </svg>
+                                        <span id="el-sgzoc03h">Domaine personnalisé</span>
+                                    </li>
+                                    <li class="flex items-start text-neutral-500 dark:text-neutral-400" id="el-lpj5btrv">
+                                        <svg class="w-5 h-5 text-neutral-400 mr-2 mt-0.5" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg" id="el-28c5pfzq">
+                                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M6 18L18 6M6 6l12 12" id="el-xp05s0x5"></path>
+                                        </svg>
+                                        <span id="el-mx5iegry">Référencement SEO avancé</span>
+                                    </li>
+                                </ul>
+                                <a href="#quote" class="mt-8 block w-full text-center bg-purple-600 hover:bg-purple-700 text-white font-semibold py-3 px-4 rounded-lg transition duration-300" id="el-vxunpg60">
+                                    Commencer
+                                </a>
+                            </div>
+                        </div>
+
+                        <!-- Pro Plan -->
+                        <div class="bg-white dark:bg-neutral-700 rounded-xl shadow-xl relative transform transition-transform duration-300 hover:scale-105 z-10 animate__animated animate__fadeInUp animate__delay-1s" style="visibility: visible;" id="el-z9x6mkdt">
+                            <div class="absolute top-0 right-0 bg-purple-600 text-white text-xs font-semibold py-1 px-3 rounded-bl-lg rounded-tr-lg" id="el-yp4ua5tj">
+                                Populaire
+                            </div>
+                            <div class="p-8 border-b border-neutral-200 dark:border-neutral-600 bg-gradient-to-r from-purple-600 to-indigo-600" id="el-l0va21t8">
+                                <h3 class="text-xl font-bold text-white mb-2" id="el-7zkuu1t2">Site Vitrine Pro</h3>
+                                <p class="text-purple-100 mb-4" id="el-8i6h9jzu">Parfait pour les entreprises et commerces</p>
+                                <div class="flex items-baseline" id="el-3kmw95gx">
+                                    <span class="text-4xl font-extrabold text-white" id="pro-price">499€</span>
+                                    <span class="ml-2 text-purple-200 text-sm" id="pro-period">paiement unique</span>
+                                </div>
+                                <p class="text-purple-200 text-sm mt-1" id="el-e2ry0pz3"><span id="pro-monthly" class="hidden">ou 59€/mois pendant 12 mois</span></p>
+                            </div>
+                            <div class="p-8" id="el-zfv7gzp2">
+                                <ul class="space-y-4" id="el-uvbnb0k5">
+                                    <li class="flex items-start" id="el-o8pernkp">
+                                        <svg class="w-5 h-5 text-green-500 mr-2 mt-0.5" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg" id="el-25zyb1zr">
+                                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7" id="el-unvov8kr"></path>
+                                        </svg>
+                                        <span class="text-neutral-700 dark:text-neutral-200" id="el-yixs9ic2">Design premium responsive</span>
+                                    </li>
+                                    <li class="flex items-start" id="el-bjnu2ztu">
+                                        <svg class="w-5 h-5 text-green-500 mr-2 mt-0.5" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg" id="el-2u48t4ik">
+                                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7" id="el-sw8g1rvb"></path>
+                                        </svg>
+                                        <span class="text-neutral-700 dark:text-neutral-200" id="el-mah499iq">Jusqu'à 10 sections personnalisées</span>
+                                    </li>
+                                    <li class="flex items-start" id="el-sp3vg45k">
+                                        <svg class="w-5 h-5 text-green-500 mr-2 mt-0.5" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg" id="el-m60kuenb">
+                                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7" id="el-gc92w706"></path>
+                                        </svg>
+                                        <span class="text-neutral-700 dark:text-neutral-200" id="el-2mh2w4dh">Formulaire de contact avancé</span>
+                                    </li>
+                                    <li class="flex items-start" id="el-31bgvtkr">
+                                        <svg class="w-5 h-5 text-green-500 mr-2 mt-0.5" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg" id="el-nx083bxc">
+                                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7" id="el-en5ujbpi"></path>
+                                        </svg>
+                                        <span class="text-neutral-700 dark:text-neutral-200" id="el-2cav6vfe">Domaine personnalisé (1 an inclus)</span>
+                                    </li>
+                                    <li class="flex items-start" id="el-9br711uf">
+                                        <svg class="w-5 h-5 text-green-500 mr-2 mt-0.5" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg" id="el-bymx2vmv">
+                                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7" id="el-783kmezy"></path>
+                                        </svg>
+                                        <span class="text-neutral-700 dark:text-neutral-200" id="el-wl71lex1">Optimisation SEO</span>
+                                    </li>
+                                    <li class="flex items-start" id="el-qb1y81fx">
+                                        <svg class="w-5 h-5 text-green-500 mr-2 mt-0.5" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg" id="el-eqzp083e">
+                                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7" id="el-rg03lrxe"></path>
+                                        </svg>
+                                        <span class="text-neutral-700 dark:text-neutral-200" id="el-0jwitovc">Animation et interactions</span>
+                                    </li>
+                                </ul>
+                                <a href="#quote" class="mt-8 block w-full text-center bg-gradient-to-r from-purple-600 to-indigo-600 hover:from-purple-700 hover:to-indigo-700 text-white font-semibold py-3 px-4 rounded-lg transition duration-300 shadow-md" id="el-blubhhzo">
+                                    Commencer
+                                </a>
+                            </div>
+                        </div>
+
+                        <!-- Premium Plan -->
+                        <div class="bg-white dark:bg-neutral-700 rounded-xl shadow-lg overflow-hidden transition-transform duration-300 hover:scale-105 animate__animated animate__fadeInUp animate__delay-2s" style="visibility: visible;" id="el-af9pri2w">
+                            <div class="p-8 border-b border-neutral-200 dark:border-neutral-600" id="el-kusfreb9">
+                                <h3 class="text-xl font-bold text-neutral-900 dark:text-white mb-2" id="el-zoghr8zr">E-commerce / Blog</h3>
+                                <p class="text-neutral-600 dark:text-neutral-300 mb-4" id="el-dps56j6q">Solution complète pour votre activité en ligne</p>
+                                <div class="flex items-baseline" id="el-kh3ogc8l">
+                                    <span class="text-4xl font-extrabold text-neutral-900 dark:text-white" id="premium-price">899€</span>
+                                    <span class="ml-2 text-neutral-500 dark:text-neutral-400 text-sm" id="premium-period">paiement unique</span>
+                                </div>
+                                <p class="text-neutral-500 dark:text-neutral-400 text-sm mt-1" id="el-m0sdbpzv"><span id="premium-monthly" class="hidden">ou 99€/mois pendant 12 mois</span></p>
+                            </div>
+                            <div class="p-8" id="el-ry09vaaf">
+                                <ul class="space-y-4" id="el-wpw6at2n">
+                                    <li class="flex items-start" id="el-olfxks7f">
+                                        <svg class="w-5 h-5 text-green-500 mr-2 mt-0.5" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg" id="el-qauw8wn4">
+                                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7" id="el-e146mv0v"></path>
+                                        </svg>
+                                        <span class="text-neutral-700 dark:text-neutral-200" id="el-t5nnqcw4">Design premium sur mesure</span>
+                                    </li>
+                                    <li class="flex items-start" id="el-91hsywqp">
+                                        <svg class="w-5 h-5 text-green-500 mr-2 mt-0.5" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg" id="el-l1pcktse">
+                                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7" id="el-rtv5o1ec"></path>
+                                        </svg>
+                                        <span class="text-neutral-700 dark:text-neutral-200" id="el-f2sy2tu8">Fonctionnalités e-commerce ou blog</span>
+                                    </li>
+                                    <li class="flex items-start" id="el-jes0933o">
+                                        <svg class="w-5 h-5 text-green-500 mr-2 mt-0.5" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg" id="el-o4061mgf">
+                                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7" id="el-ncgvucuu"></path>
+                                        </svg>
+                                        <span class="text-neutral-700 dark:text-neutral-200" id="el-bnfg5zf0">Système de paiement intégré</span>
+                                    </li>
+                                    <li class="flex items-start" id="el-fthl52ys">
+                                        <svg class="w-5 h-5 text-green-500 mr-2 mt-0.5" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg" id="el-kmd69wag">
+                                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7" id="el-osrvghjn"></path>
+                                        </svg>
+                                        <span class="text-neutral-700 dark:text-neutral-200" id="el-f2qrln96">Domaine personnalisé (2 ans inclus)</span>
+                                    </li>
+                                    <li class="flex items-start" id="el-ojzo2wy5">
+                                        <svg class="w-5 h-5 text-green-500 mr-2 mt-0.5" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg" id="el-f6cbfcv0">
+                                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7" id="el-b1zy2p96"></path>
+                                        </svg>
+                                        <span class="text-neutral-700 dark:text-neutral-200" id="el-sjh7oipq">SEO avancé et marketing intégré</span>
+                                    </li>
+                                    <li class="flex items-start" id="el-ycnexnbn">
+                                        <svg class="w-5 h-5 text-green-500 mr-2 mt-0.5" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg" id="el-bulm99wn">
+                                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7" id="el-ghz06y1k"></path>
+                                        </svg>
+                                        <span class="text-neutral-700 dark:text-neutral-200" id="el-l1lrr4l6">Support technique prioritaire (1 an)</span>
+                                    </li>
+                                </ul>
+                                <a href="#quote" class="mt-8 block w-full text-center bg-purple-600 hover:bg-purple-700 text-white font-semibold py-3 px-4 rounded-lg transition duration-300" id="el-3825n1v2">
+                                    Commencer
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Hosting Plans -->
+                    <div class="mt-20 text-center mb-12 max-w-3xl mx-auto animate__animated animate__fadeIn" style="visibility: visible;" id="el-5ksm1azb">
+                        <h3 class="text-2xl md:text-3xl font-bold mb-4 text-neutral-900 dark:text-white" id="el-8kamurtt">Options d'hébergement</h3>
+                        <p class="text-lg text-neutral-700 dark:text-neutral-300" id="el-judujxqu">Choisissez la solution qui correspond à vos besoins et à votre budget</p>
+                    </div>
+
+                    <div class="grid grid-cols-1 md:grid-cols-2 gap-8 max-w-4xl mx-auto" id="el-bvg9liua">
+                        <!-- Free Hosting -->
+                        <div class="bg-white dark:bg-neutral-700 rounded-xl shadow-lg p-8 transition-transform duration-300 hover:scale-105 animate__animated animate__fadeInUp" style="visibility: visible;" id="el-32uedu1f">
+                            <div class="flex justify-between items-start" id="el-0gv5i68n">
+                                <div id="el-sbaki6w7">
+                                    <h4 class="text-xl font-bold text-neutral-900 dark:text-white mb-2" id="el-kwp0ic5q">GitHub Pages</h4>
+                                    <div class="flex items-baseline mb-4" id="el-bmks23e0">
+                                        <span class="text-3xl font-extrabold text-neutral-900 dark:text-white" id="el-dxwq6m6x">Gratuit</span>
+                                        <span class="ml-2 text-neutral-500 dark:text-neutral-400 text-sm" id="el-lagzwk8w">pour toujours</span>
+                                    </div>
+                                </div>
+                                <div class="bg-green-100 dark:bg-green-800 p-2 rounded-full" id="el-q8ueyut3">
+                                    <svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6 text-green-600 dark:text-green-300" fill="none" viewBox="0 0 24 24" stroke="currentColor" id="el-76rzvxak">
+                                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7" id="el-k0u2gz1e"></path>
+                                    </svg>
+                                </div>
+                            </div>
+                            <ul class="mt-6 space-y-3" id="el-lyom6vi7">
+                                <li class="flex items-start" id="el-zbavoidd">
+                                    <svg class="w-5 h-5 text-green-500 mr-2 mt-0.5" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg" id="el-r8j4sty1">
+                                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7" id="el-hxe7n9ra"></path>
+                                    </svg>
+                                    <span class="text-neutral-700 dark:text-neutral-200" id="el-u0wph87i">Hébergement gratuit</span>
+                                </li>
+                                <li class="flex items-start" id="el-8xfr660v">
+                                    <svg class="w-5 h-5 text-green-500 mr-2 mt-0.5" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg" id="el-salyyjlp">
+                                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7" id="el-05kdj1u6"></path>
+                                    </svg>
+                                    <span class="text-neutral-700 dark:text-neutral-200" id="el-3743n0cu">Domaine username.github.io</span>
+                                </li>
+                                <li class="flex items-start" id="el-iwd9mlqi">
+                                    <svg class="w-5 h-5 text-green-500 mr-2 mt-0.5" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg" id="el-5lqp8fy9">
+                                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7" id="el-ah4q1po9"></path>
+                                    </svg>
+                                    <span class="text-neutral-700 dark:text-neutral-200" id="el-irdc6ufd">Idéal pour sites statiques</span>
+                                </li>
+                                <li class="flex items-start text-neutral-500 dark:text-neutral-400" id="el-y43jledn">
+                                    <svg class="w-5 h-5 text-neutral-400 mr-2 mt-0.5" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg" id="el-lxcmef8v">
+                                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M6 18L18 6M6 6l12 12" id="el-h6uz0qyo"></path>
+                                    </svg>
+                                    <span id="el-wpzfasuv">Pas de nom de domaine personnalisé</span>
+                                </li>
+                                <li class="flex items-start text-neutral-500 dark:text-neutral-400" id="el-ywclxcak">
+                                    <svg class="w-5 h-5 text-neutral-400 mr-2 mt-0.5" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg" id="el-h1lczm9a">
+                                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M6 18L18 6M6 6l12 12" id="el-ugp9clox"></path>
+                                    </svg>
+                                    <span id="el-8loseic3">Fonctionnalités limitées</span>
+                                </li>
+                            </ul>
+                            <div class="mt-6" id="el-4ul8cxbs">
+                                <div class="w-full h-2 bg-neutral-200 dark:bg-neutral-600 rounded-full" id="el-ubx9uqbp">
+                                    <div class="w-2/3 h-2 bg-green-500 rounded-full" id="el-4ars7urd"></div>
+                                </div>
+                                <div class="flex justify-between mt-2 text-sm text-neutral-500 dark:text-neutral-400" id="el-xcdv9k36">
+                                    <span id="el-7ymzy319">Performance</span>
+                                    <span id="el-dhetujnb">Bon</span>
+                                </div>
+                            </div>
+                        </div>
+
+                        <!-- Premium Hosting -->
+                        <div class="bg-white dark:bg-neutral-700 rounded-xl shadow-lg p-8 transition-transform duration-300 hover:scale-105 border-2 border-purple-500 animate__animated animate__fadeInUp animate__delay-1s" style="visibility: visible;" id="el-bx0cqi84">
+                            <div class="flex justify-between items-start" id="el-rxi8xslh">
+                                <div id="el-qnc9qdnr">
+                                    <h4 class="text-xl font-bold text-neutral-900 dark:text-white mb-2" id="el-f7rvwzkm">Hébergement Premium</h4>
+                                    <div class="flex items-baseline mb-4" id="el-ez0ruknm">
+                                        <span class="text-3xl font-extrabold text-neutral-900 dark:text-white" id="el-r1osmfrt">3€</span>
+                                        <span class="ml-2 text-neutral-500 dark:text-neutral-400 text-sm" id="el-qkwuriqa">/mois</span>
+                                    </div>
+                                </div>
+                                <div class="bg-purple-100 dark:bg-purple-800 p-2 rounded-full" id="el-906dpga6">
+                                    <svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6 text-purple-600 dark:text-purple-300" fill="none" viewBox="0 0 24 24" stroke="currentColor" id="el-wqesj7oa">
+                                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 12l2 2 4-4m5.618-4.016A11.955 11.955 0 0112 2.944a11.955 11.955 0 01-8.618 3.04A12.02 12.02 0 003 9c0 5.591 3.824 10.29 9 11.622 5.176-1.332 9-6.03 9-11.622 0-1.042-.133-2.052-.382-3.016z" id="el-ijc2ao2p"></path>
+                                    </svg>
+                                </div>
+                            </div>
+                            <ul class="mt-6 space-y-3" id="el-y9iwsql5">
+                                <li class="flex items-start" id="el-xp5ufsnl">
+                                    <svg class="w-5 h-5 text-green-500 mr-2 mt-0.5" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg" id="el-fwu3tdzh">
+                                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7" id="el-w5hh83fs"></path>
+                                    </svg>
+                                    <span class="text-neutral-700 dark:text-neutral-200" id="el-x9061ni1">Nom de domaine personnalisé</span>
+                                </li>
+                                <li class="flex items-start" id="el-zjnnfp94">
+                                    <svg class="w-5 h-5 text-green-500 mr-2 mt-0.5" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg" id="el-9lggtwye">
+                                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7" id="el-7hewpyiu"></path>
+                                    </svg>
+                                    <span class="text-neutral-700 dark:text-neutral-200" id="el-n3kew3rc">Certificat SSL inclus</span>
+                                </li>
+                                <li class="flex items-start" id="el-a845nkua">
+                                    <svg class="w-5 h-5 text-green-500 mr-2 mt-0.5" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg" id="el-alh8qzjn">
+                                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7" id="el-ntkq2qfg"></path>
+                                    </svg>
+                                    <span class="text-neutral-700 dark:text-neutral-200" id="el-wtby7165">Support e-mail et téléphonique</span>
+                                </li>
+                                <li class="flex items-start" id="el-2cuzb133">
+                                    <svg class="w-5 h-5 text-green-500 mr-2 mt-0.5" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg" id="el-xuk4eqkf">
+                                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7" id="el-2w24hwoc"></path>
+                                    </svg>
+                                    <span class="text-neutral-700 dark:text-neutral-200" id="el-85n1snjx">Performances optimisées</span>
+                                </li>
+                                <li class="flex items-start" id="el-yr138ig3">
+                                    <svg class="w-5 h-5 text-green-500 mr-2 mt-0.5" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg" id="el-ys3uvwff">
+                                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7" id="el-xltzu0wo"></path>
+                                    </svg>
+                                    <span class="text-neutral-700 dark:text-neutral-200" id="el-wl2rinj7">Sauvegardes automatiques</span>
+                                </li>
+                            </ul>
+                            <div class="mt-6" id="el-a4nsvx1j">
+                                <div class="w-full h-2 bg-neutral-200 dark:bg-neutral-600 rounded-full" id="el-asv5zrva">
+                                    <div class="w-full h-2 bg-purple-500 rounded-full" id="el-oh8i27i5"></div>
+                                </div>
+                                <div class="flex justify-between mt-2 text-sm text-neutral-500 dark:text-neutral-400" id="el-jydvyzcw">
+                                    <span id="el-u4xjv8s2">Performance</span>
+                                    <span id="el-chww95rk">Excellent</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Guarantee Section -->
+                    <div class="mt-20 bg-neutral-200 dark:bg-neutral-700 rounded-2xl p-8 max-w-4xl mx-auto shadow-lg animate__animated animate__fadeIn" style="visibility: visible;" id="el-666k3kmm">
+                        <div class="flex flex-col md:flex-row items-center gap-6" id="el-0lyklcyq">
+                            <div class="md:w-1/4 flex justify-center" id="el-t8n1g5zb">
+                                <svg xmlns="http://www.w3.org/2000/svg" class="h-24 w-24 text-purple-600" fill="none" viewBox="0 0 24 24" stroke="currentColor" id="el-v7sopbag">
+                                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 12l2 2 4-4m5.618-4.016A11.955 11.955 0 0112 2.944a11.955 11.955 0 01-8.618 3.04A12.02 12.02 0 003 9c0 5.591 3.824 10.29 9 11.622 5.176-1.332 9-6.03 9-11.622 0-1.042-.133-2.052-.382-3.016z" id="el-e3aet7ht"></path>
+                                </svg>
+                            </div>
+                            <div class="md:w-3/4" id="el-pe7ij9s3">
+                                <h3 class="text-2xl font-bold text-neutral-900 dark:text-white mb-3" id="el-325u6j32">Garantie satisfaction à 100%</h3>
+                                <p class="text-neutral-700 dark:text-neutral-300 mb-3" id="el-raqvdw6e">Nous nous engageons à vous offrir un site web qui répond parfaitement à vos attentes. Si vous n'êtes pas satisfait, nous travaillerons avec vous pour apporter les modifications nécessaires jusqu'à ce que vous soyez entièrement satisfait.</p>
+                                <p class="text-neutral-600 dark:text-neutral-400 text-sm" id="el-fkfgjggi">*Modifications illimitées pendant la phase de développement et jusqu'à 2 révisions après livraison.</p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- CTA Button -->
+                    <div class="text-center mt-16 animate__animated animate__fadeIn" style="visibility: visible;" id="el-qwhc9tg8">
+                        <a href="#quote" class="inline-block bg-gradient-to-r from-purple-600 to-indigo-600 hover:from-purple-700 hover:to-indigo-700 text-white font-semibold py-4 px-8 rounded-lg transition duration-300 shadow-xl hover:shadow-2xl transform hover:scale-105" id="el-x4wpcqh0">
+                            Discuter de votre projet
+                        </a>
+                        <p class="mt-4 text-neutral-600 dark:text-neutral-400" id="el-peas8dym">Ou appelez-nous au <span class="font-semibold text-neutral-800 dark:text-white" id="el-psqb4t8y">06 XX XX XX XX</span></p>
+                    </div>
+                </div>
+            </section>
+        </div>
+
+
+        <script>
+            document.addEventListener('DOMContentLoaded', function () {
+                const pricingToggle = document.getElementById('pricing-toggle');
+                const monthlyLabel = document.getElementById('monthly-label');
+                const yearlyLabel = document.getElementById('yearly-label');
+
+                const basicPrice = document.getElementById('basic-price');
+                const basicPeriod = document.getElementById('basic-period');
+                const basicMonthly = document.getElementById('basic-monthly');
+
+                const proPrice = document.getElementById('pro-price');
+                const proPeriod = document.getElementById('pro-period');
+                const proMonthly = document.getElementById('pro-monthly');
+
+                const premiumPrice = document.getElementById('premium-price');
+                const premiumPeriod = document.getElementById('premium-period');
+                const premiumMonthly = document.getElementById('premium-monthly');
+
+                pricingToggle.addEventListener('change', function () {
+                    if (this.checked) {
+                        // Monthly subscription
+                        monthlyLabel.classList.add('text-neutral-500', 'dark:text-neutral-400');
+                        monthlyLabel.classList.remove('text-neutral-900', 'dark:text-white', 'font-semibold');
+                        yearlyLabel.classList.add('text-neutral-900', 'dark:text-white', 'font-semibold');
+                        yearlyLabel.classList.remove('text-neutral-500', 'dark:text-neutral-400');
+
+                        basicPrice.textContent = '29€';
+                        basicPeriod.textContent = '/mois';
+                        basicMonthly.classList.remove('hidden');
+
+                        proPrice.textContent = '59€';
+                        proPeriod.textContent = '/mois';
+                        proMonthly.classList.remove('hidden');
+
+                        premiumPrice.textContent = '99€';
+                        premiumPeriod.textContent = '/mois';
+                        premiumMonthly.classList.remove('hidden');
+                    } else {
+                        // One-time payment
+                        yearlyLabel.classList.add('text-neutral-500', 'dark:text-neutral-400');
+                        yearlyLabel.classList.remove('text-neutral-900', 'dark:text-white', 'font-semibold');
+                        monthlyLabel.classList.add('text-neutral-900', 'dark:text-white', 'font-semibold');
+                        monthlyLabel.classList.remove('text-neutral-500', 'dark:text-neutral-400');
+
+                        basicPrice.textContent = '299€';
+                        basicPeriod.textContent = 'paiement unique';
+                        basicMonthly.classList.add('hidden');
+
+                        proPrice.textContent = '599€';
+                        proPeriod.textContent = 'paiement unique';
+                        proMonthly.classList.add('hidden');
+
+                        premiumPrice.textContent = '999€';
+                        premiumPeriod.textContent = 'paiement unique';
+                        premiumMonthly.classList.add('hidden');
+                    }
+                });
+            });
+        </script>
+    </htmlcode>
+    <htmlCode>
+        <div id="root">
+            <section id="quote" class="bg-gray-900 shadow-md">
+                <div class="container mx-auto px-4">
+                    <div class="text-center mb-12 max-w-3xl mx-auto">
+                        <h2 class="text-3xl md:text-4xl font-bold mb-4 text-white animate__animated animate__fadeIn">
+                            Demandez un Devis Personnalisé
+                        </h2>
+                        <p class="text-lg text-white animate__animated animate__fadeIn animate__delay-1s">
+                            Parlez-nous de votre projet et nous vous proposerons une solution adaptée à vos besoins et à votre budget
+                        </p>
+                    </div>
+
+
+                    <div class="flex flex-col lg:flex-row gap-12 max-w-6xl mx-auto">
+                        <!-- Form Section -->
+                        <div class="lg:w-2/3 animate__animated animate__fadeInLeft animate__delay-1s">
+                            <div class="bg-neutral-50 dark:bg-neutral-800 rounded-xl shadow-lg p-8">
+                                <form id="quoteForm" class="space-y-6" action="https://formspree.io/f/mblgjeqp" method="POST">
+                                    <!-- Personal Information -->
+                                    <div>
+                                        <h3 class="text-xl font-semibold text-neutral-900 dark:text-white mb-4">Vos Coordonnées</h3>
+                                        <div class="grid grid-cols-1 md:grid-cols-2 gap-6">
+                                            <div>
+                                                <label for="firstName" class="block text-sm font-medium text-neutral-700 dark:text-neutral-300 mb-1">Prénom *</label>
+                                                <input type="text" id="firstName" name="firstName" required class="w-full px-4 py-2 border border-neutral-300 dark:border-neutral-600 rounded-lg focus:ring-2 focus:ring-purple-500 focus:border-transparent dark:bg-neutral-700 dark:text-white">
+                                            </div>
+                                            <div>
+                                                <label for="lastName" class="block text-sm font-medium text-neutral-700 dark:text-neutral-300 mb-1">Nom *</label>
+                                                <input type="text" id="lastName" name="lastName" required class="w-full px-4 py-2 border border-neutral-300 dark:border-neutral-600 rounded-lg focus:ring-2 focus:ring-purple-500 focus:border-transparent dark:bg-neutral-700 dark:text-white">
+                                            </div>
+                                            <div>
+                                                <label for="email" class="block text-sm font-medium text-neutral-700 dark:text-neutral-300 mb-1">Email *</label>
+                                                <input type="email" id="email" name="email" required class="w-full px-4 py-2 border border-neutral-300 dark:border-neutral-600 rounded-lg focus:ring-2 focus:ring-purple-500 focus:border-transparent dark:bg-neutral-700 dark:text-white">
+                                            </div>
+                                            <div>
+                                                <label for="phone" class="block text-sm font-medium text-neutral-700 dark:text-neutral-300 mb-1">Téléphone</label>
+                                                <input type="tel" id="phone" name="phone" class="w-full px-4 py-2 border border-neutral-300 dark:border-neutral-600 rounded-lg focus:ring-2 focus:ring-purple-500 focus:border-transparent dark:bg-neutral-700 dark:text-white">
+                                            </div>
+                                        </div>
+                                    </div>
+
+                                    <!-- Project Information -->
+                                    <div class="border-t border-neutral-200 dark:border-neutral-700 pt-6">
+                                        <h3 class="text-xl font-semibold text-neutral-900 dark:text-white mb-4">Votre Projet</h3>
+                                        <div class="space-y-6">
+                                            <div>
+                                                <label class="block text-sm font-medium text-neutral-700 dark:text-neutral-300 mb-2">Type de site souhaité *</label>
+                                                <div class="grid grid-cols-1 sm:grid-cols-3 gap-4">
+                                                    <div class="relative">
+                                                        <input type="radio" id="typePortfolio" name="siteType" value="portfolio" class="peer hidden" required>
+                                                        <label for="typePortfolio" class="block p-4 text-center border border-neutral-300 dark:border-neutral-600 rounded-lg cursor-pointer hover:border-purple-500 dark:hover:border-purple-500 peer-checked:border-purple-500 peer-checked:bg-purple-50 dark:peer-checked:bg-purple-900/30 transition-colors">
+                                                            <svg xmlns="http://www.w3.org/2000/svg" class="h-8 w-8 mx-auto mb-2 text-neutral-700 dark:text-neutral-300 peer-checked:text-purple-600 dark:peer-checked:text-purple-400" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                                                                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5" d="M4 16l4.586-4.586a2 2 0 012.828 0L16 16m-2-2l1.586-1.586a2 2 0 012.828 0L20 14m-6-6h.01M6 20h12a2 2 0 002-2V6a2 2 0 00-2-2H6a2 2 0 00-2 2v12a2 2 0 002 2z" />
+                                                            </svg>
+                                                            <span class="block text-neutral-900 dark:text-white font-medium">Portfolio</span>
+                                                        </label>
+                                                    </div>
+                                                    <div class="relative">
+                                                        <input type="radio" id="typeShowcase" name="siteType" value="showcase" class="peer hidden">
+                                                        <label for="typeShowcase" class="block p-4 text-center border border-neutral-300 dark:border-neutral-600 rounded-lg cursor-pointer hover:border-purple-500 dark:hover:border-purple-500 peer-checked:border-purple-500 peer-checked:bg-purple-50 dark:peer-checked:bg-purple-900/30 transition-colors">
+                                                            <svg xmlns="http://www.w3.org/2000/svg" class="h-8 w-8 mx-auto mb-2 text-neutral-700 dark:text-neutral-300 peer-checked:text-purple-600 dark:peer-checked:text-purple-400" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                                                                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5" d="M19 21V5a2 2 0 00-2-2H7a2 2 0 00-2 2v16m14 0h2m-2 0h-5m-9 0H3m2 0h5M9 7h1m-1 4h1m4-4h1m-1 4h1m-5 10v-5a1 1 0 011-1h2a1 1 0 011 1v5m-4 0h4" />
+                                                            </svg>
+                                                            <span class="block text-neutral-900 dark:text-white font-medium">Site Vitrine</span>
+                                                        </label>
+                                                    </div>
+                                                    <div class="relative">
+                                                        <input type="radio" id="typeEcommerce" name="siteType" value="ecommerce" class="peer hidden">
+                                                        <label for="typeEcommerce" class="block p-4 text-center border border-neutral-300 dark:border-neutral-600 rounded-lg cursor-pointer hover:border-purple-500 dark:hover:border-purple-500 peer-checked:border-purple-500 peer-checked:bg-purple-50 dark:peer-checked:bg-purple-900/30 transition-colors">
+                                                            <svg xmlns="http://www.w3.org/2000/svg" class="h-8 w-8 mx-auto mb-2 text-neutral-700 dark:text-neutral-300 peer-checked:text-purple-600 dark:peer-checked:text-purple-400" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                                                                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5" d="M3 3h2l.4 2M7 13h10l4-8H5.4M7 13L5.4 5M7 13l-2.293 2.293c-.63.63-.184 1.707.707 1.707H17m0 0a2 2 0 100 4 2 2 0 000-4zm-8 2a2 2 0 11-4 0 2 2 0 014 0z" />
+                                                            </svg>
+                                                            <span class="block text-neutral-900 dark:text-white font-medium">E-commerce/Blog</span>
+                                                        </label>
+                                                    </div>
+                                                </div>
+                                            </div>
+
+                                            <div>
+                                                <label class="block text-sm font-medium text-neutral-700 dark:text-neutral-300 mb-2">Option d'hébergement préférée</label>
+                                                <div class="grid grid-cols-1 sm:grid-cols-2 gap-4">
+                                                    <div class="relative">
+                                                        <input type="radio" id="hostingGithub" name="hosting" value="github" class="peer hidden" checked>
+                                                        <label for="hostingGithub" class="block p-4 text-center border border-neutral-300 dark:border-neutral-600 rounded-lg cursor-pointer hover:border-purple-500 dark:hover:border-purple-500 peer-checked:border-purple-500 peer-checked:bg-purple-50 dark:peer-checked:bg-purple-900/30 transition-colors">
+                                                            <span class="flex items-center justify-center">
+                                                                <svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6 mr-2 text-neutral-700 dark:text-neutral-300 peer-checked:text-purple-600 dark:peer-checked:text-purple-400" viewBox="0 0 24 24" fill="currentColor">
+                                                                    <path d="M12 0c-6.626 0-12 5.373-12 12 0 5.302 3.438 9.8 8.207 11.387.599.111.793-.261.793-.577v-2.234c-3.338.726-4.033-1.416-4.033-1.416-.546-1.387-1.333-1.756-1.333-1.756-1.089-.745.083-.729.083-.729 1.205.084 1.839 1.237 1.839 1.237 1.07 1.834 2.807 1.304 3.492.997.107-.775.418-1.305.762-1.604-2.665-.305-5.467-1.334-5.467-5.931 0-1.311.469-2.381 1.236-3.221-.124-.303-.535-1.524.117-3.176 0 0 1.008-.322 3.301 1.23.957-.266 1.983-.399 3.003-.404 1.02.005 2.047.138 3.006.404 2.291-1.552 3.297-1.23 3.297-1.23.653 1.653.242 2.874.118 3.176.77.84 1.235 1.911 1.235 3.221 0 4.609-2.807 5.624-5.479 5.921.43.372.823 1.102.823 2.222v3.293c0 .319.192.694.801.576 4.765-1.589 8.199-6.086 8.199-11.386 0-6.627-5.373-12-12-12z" />
+                                                                </svg>
+                                                                <span class="block text-neutral-900 dark:text-white font-medium">GitHub Pages (Gratuit)</span>
+                                                            </span>
+                                                        </label>
+                                                    </div>
+                                                    <div class="relative">
+                                                        <input type="radio" id="hostingCustom" name="hosting" value="custom" class="peer hidden">
+                                                        <label for="hostingCustom" class="block p-4 text-center border border-neutral-300 dark:border-neutral-600 rounded-lg cursor-pointer hover:border-purple-500 dark:hover:border-purple-500 peer-checked:border-purple-500 peer-checked:bg-purple-50 dark:peer-checked:bg-purple-900/30 transition-colors">
+                                                            <span class="flex items-center justify-center">
+                                                                <svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6 mr-2 text-neutral-700 dark:text-neutral-300 peer-checked:text-purple-600 dark:peer-checked:text-purple-400" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                                                                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M21 12a9 9 0 01-9 9m9-9a9 9 0 00-9-9m9 9H3m9 9a9 9 0 01-9-9m9 9c1.657 0 3-4.03 3-9s-1.343-9-3-9m0 18c-1.657 0-3-4.03-3-9s1.343-9 3-9m-9 9a9 9 0 019-9" />
+                                                                </svg>
+                                                                <span class="block text-neutral-900 dark:text-white font-medium">Domaine personnalisé (3€/mois)</span>
+                                                            </span>
+                                                        </label>
+                                                    </div>
+                                                </div>
+                                            </div>
+
+                                            <div>
+                                                <label for="budget" class="block text-sm font-medium text-neutral-700 dark:text-neutral-300 mb-1">Budget approximatif (€)</label>
+                                                <select id="budget" name="budget" class="w-full px-4 py-2 border border-neutral-300 dark:border-neutral-600 rounded-lg focus:ring-2 focus:ring-purple-500 focus:border-transparent dark:bg-neutral-700 dark:text-white">
+                                                    <option value="">Sélectionnez votre budget</option>
+                                                    <option value="less-than-300">Moins de 300€</option>
+                                                    <option value="300-600">300€ - 600€</option>
+                                                    <option value="600-1000">600€ - 1000€</option>
+                                                    <option value="more-than-1000">Plus de 1000€</option>
+                                                </select>
+                                            </div>
+
+                                            <div>
+                                                <label class="block text-sm font-medium text-neutral-700 dark:text-neutral-300 mb-2">Fonctionnalités souhaitées</label>
+                                                <div class="grid grid-cols-1 md:grid-cols-2 gap-3">
+                                                    <div class="flex items-start">
+                                                        <input type="checkbox" id="featureContact" name="features" value="contact" class="mt-1 h-4 w-4 text-purple-600 border-neutral-300 rounded focus:ring-purple-500 dark:bg-neutral-700 dark:border-neutral-600">
+                                                        <label for="featureContact" class="ml-2 text-sm text-neutral-700 dark:text-neutral-300">Formulaire de contact</label>
+                                                    </div>
+                                                    <div class="flex items-start">
+                                                        <input type="checkbox" id="featureSeo" name="features" value="seo" class="mt-1 h-4 w-4 text-purple-600 border-neutral-300 rounded focus:ring-purple-500 dark:bg-neutral-700 dark:border-neutral-600">
+                                                        <label for="featureSeo" class="ml-2 text-sm text-neutral-700 dark:text-neutral-300">Optimisation SEO avancée</label>
+                                                    </div>
+                                                    <div class="flex items-start">
+                                                        <input type="checkbox" id="featureResponsive" name="features" value="responsive" class="mt-1 h-4 w-4 text-purple-600 border-neutral-300 rounded focus:ring-purple-500 dark:bg-neutral-700 dark:border-neutral-600" checked>
+                                                        <label for="featureResponsive" class="ml-2 text-sm text-neutral-700 dark:text-neutral-300">Design responsive</label>
+                                                    </div>
+                                                    <div class="flex items-start">
+                                                        <input type="checkbox" id="featureMultilingual" name="features" value="multilingual" class="mt-1 h-4 w-4 text-purple-600 border-neutral-300 rounded focus:ring-purple-500 dark:bg-neutral-700 dark:border-neutral-600">
+                                                        <label for="featureMultilingual" class="ml-2 text-sm text-neutral-700 dark:text-neutral-300">Site multilingue</label>
+                                                    </div>
+                                                    <div class="flex items-start">
+                                                        <input type="checkbox" id="featureGallery" name="features" value="gallery" class="mt-1 h-4 w-4 text-purple-600 border-neutral-300 rounded focus:ring-purple-500 dark:bg-neutral-700 dark:border-neutral-600">
+                                                        <label for="featureGallery" class="ml-2 text-sm text-neutral-700 dark:text-neutral-300">Galerie de projets/produits</label>
+                                                    </div>
+                                                    <div class="flex items-start">
+                                                        <input type="checkbox" id="featureAdmin" name="features" value="admin" class="mt-1 h-4 w-4 text-purple-600 border-neutral-300 rounded focus:ring-purple-500 dark:bg-neutral-700 dark:border-neutral-600">
+                                                        <label for="featureAdmin" class="ml-2 text-sm text-neutral-700 dark:text-neutral-300">Interface d'administration</label>
+                                                    </div>
+                                                </div>
+                                            </div>
+
+                                            <div>
+                                                <label for="projectDescription" class="block text-sm font-medium text-neutral-700 dark:text-neutral-300 mb-1">Description du projet *</label>
+                                                <textarea id="projectDescription" name="projectDescription" rows="5" required class="w-full px-4 py-2 border border-neutral-300 dark:border-neutral-600 rounded-lg focus:ring-2 focus:ring-purple-500 focus:border-transparent dark:bg-neutral-700 dark:text-white" placeholder="Décrivez votre projet, vos objectifs et toute information que vous jugez pertinente..."></textarea>
+                                            </div>
+
+                                            <div>
+                                                <label for="timeline" class="block text-sm font-medium text-neutral-700 dark:text-neutral-300 mb-1">Délai souhaité</label>
+                                                <select id="timeline" name="timeline" class="w-full px-4 py-2 border border-neutral-300 dark:border-neutral-600 rounded-lg focus:ring-2 focus:ring-purple-500 focus:border-transparent dark:bg-neutral-700 dark:text-white">
+                                                    <option value="">Sélectionnez un délai</option>
+                                                    <option value="urgent">Urgent (moins de 2 semaines)</option>
+                                                    <option value="normal">Normal (2-4 semaines)</option>
+                                                    <option value="flexible">Flexible (plus d'un mois)</option>
+                                                </select>
+                                            </div>
+                                        </div>
+                                    </div>
+
+                                    <!-- Submit -->
+                                    <div class="pt-4">
+                                        <div class="flex items-start mb-4">
+                                            <input type="checkbox" id="privacy" name="privacy" required class="mt-1 h-4 w-4 text-purple-600 border-neutral-300 rounded focus:ring-purple-500 dark:bg-neutral-700 dark:border-neutral-600">
+                                            <label for="privacy" class="ml-2 text-sm text-neutral-600 dark:text-neutral-400">
+                                                J'accepte que mes données soient traitées pour traiter ma demande. *
+                                            </label>
+                                        </div>
+                                        <button type="submit" class="w-full bg-gradient-to-r from-purple-600 to-indigo-600 hover:from-purple-700 hover:to-indigo-700 text-white font-semibold py-3 px-6 rounded-lg transition duration-300 shadow-md">
+                                            Envoyer ma demande de devis
+                                        </button>
+                                        <p class="text-xs text-neutral-500 dark:text-neutral-400 mt-3 text-center">Les champs marqués d'un * sont obligatoires</p>
+                                    </div>
+                                </form>
+                            </div>
+                        </div>
+
+                        <!-- Info Section -->
+                        <div class="lg:w-1/3 animate__animated animate__fadeInRight animate__delay-1s">
+                            <div class="sticky top-24">
+                                <div class="bg-gradient-to-br from-purple-600 to-indigo-600 rounded-xl shadow-lg p-8 text-white mb-8">
+                                    <h3 class="text-xl font-bold mb-4">Pourquoi nous choisir ?</h3>
+                                    <ul class="space-y-3">
+                                        <li class="flex items-start">
+                                            <svg class="w-5 h-5 text-purple-200 mr-2 mt-0.5" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                                                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7"></path>
+                                            </svg>
+                                            <span>Sites web modernes et optimisés</span>
+                                        </li>
+                                        <li class="flex items-start">
+                                            <svg class="w-5 h-5 text-purple-200 mr-2 mt-0.5" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                                                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7"></path>
+                                            </svg>
+                                            <span>Tarifs transparents sans frais cachés</span>
+                                        </li>
+                                        <li class="flex items-start">
+                                            <svg class="w-5 h-5 text-purple-200 mr-2 mt-0.5" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                                                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7"></path>
+                                            </svg>
+                                            <span>Accompagnement personnalisé</span>
+                                        </li>
+                                        <li class="flex items-start">
+                                            <svg class="w-5 h-5 text-purple-200 mr-2 mt-0.5" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                                                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7"></path>
+                                            </svg>
+                                            <span>Support technique inclus</span>
+                                        </li>
+                                        <li class="flex items-start">
+                                            <svg class="w-5 h-5 text-purple-200 mr-2 mt-0.5" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                                                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7"></path>
+                                            </svg>
+                                            <span>Garantie satisfaction à 100%</span>
+                                        </li>
+                                    </ul>
+                                </div>
+
+                                <div class="bg-neutral-50 dark:bg-neutral-800 rounded-xl shadow-lg p-8">
+                                    <h3 class="text-xl font-bold text-neutral-900 dark:text-white mb-4">Nous contacter directement</h3>
+                                    <div class="space-y-4">
+                                        <div class="flex items-start">
+                                            <div class="w-10 h-10 rounded-full bg-purple-100 dark:bg-purple-900/40 flex items-center justify-center mr-3 shrink-0">
+                                                <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5 text-purple-600 dark:text-purple-400" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                                                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M3 8l7.89 5.26a2 2 0 002.22 0L21 8M5 19h14a2 2 0 002-2V7a2 2 0 00-2-2H5a2 2 0 00-2 2v10a2 2 0 002 2z" />
+                                                </svg>
+                                            </div>
+                                            <div>
+                                                <h4 class="text-sm font-semibold text-neutral-900 dark:text-white">Email</h4>
+                                                <a href="mailto:athenapro.b@gmail.com" class="text-purple-600 dark:text-purple-400 hover:underline">contact@example.com</a>
+                                            </div>
+                                        </div>
+
+                                        <div class="flex items-start">
+                                            <div class="w-10 h-10 rounded-full bg-purple-100 dark:bg-purple-900/40 flex items-center justify-center mr-3 shrink-0">
+                                                <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5 text-purple-600 dark:text-purple-400" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                                                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M3 5a2 2 0 012-2h3.28a1 1 0 01.948.684l1.498 4.493a1 1 0 01-.502 1.21l-2.257 1.13a11.042 11.042 0 005.516 5.516l1.13-2.257a1 1 0 011.21-.502l4.493 1.498a1 1 0 01.684.949V19a2 2 0 01-2 2h-1C9.716 21 3 14.284 3 6V5z" />
+                                                </svg>
+                                            </div>
+                                            <div>
+                                                <h4 class="text-sm font-semibold text-neutral-900 dark:text-white">Téléphone</h4>
+                                                <a href="tel:+33604181784" class="text-purple-600 dark:text-purple-400 hover:underline">+33 6 04 18 17 84</a>
+                                            </div>
+                                        </div>
+
+                                        <div class="flex items-start">
+                                            <div class="w-10 h-10 rounded-full bg-purple-100 dark:bg-purple-900/40 flex items-center justify-center mr-3 shrink-0">
+                                                <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5 text-purple-600 dark:text-purple-400" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                                                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 8v4l3 3m6-3a9 9 0 11-18 0 9 9 0 0118 0z" />
+                                                </svg>
+                                            </div>
+                                            <div>
+                                                <h4 class="text-sm font-semibold text-neutral-900 dark:text-white">Horaires</h4>
+                                                <p class="text-neutral-600 dark:text-neutral-400">Lun - Ven: 9h00 - 18h00</p>
+                                            </div>
+                                        </div>
+                                    </div>
+
+                                    <div class="mt-6 pt-6 border-t border-neutral-200 dark:border-neutral-700">
+                                        <h4 class="text-sm font-semibold text-neutral-900 dark:text-white mb-3">Suivez-nous</h4>
+                                        <div class="flex space-x-4">
+                                            <a href="https://www.instagram.com/thn_benzema?igsh=a2M2YXYyeXh1czln" class="w-10 h-10 rounded-full bg-neutral-200 dark:bg-neutral-700 flex items-center justify-center text-neutral-700 dark:text-neutral-300 hover:bg-purple-100 hover:text-purple-600 dark:hover:bg-purple-900/40 dark:hover:text-purple-400 transition-colors">
+                                                <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5" fill="currentColor" viewBox="0 0 24 24">
+                                                    <path d="M12 2.163c3.204 0 3.584.012 4.85.07 3.252.148 4.771 1.691 4.919 4.919.058 1.265.069 1.645.069 4.849 0 3.205-.012 3.584-.069 4.849-.149 3.225-1.664 4.771-4.919 4.919-1.266.058-1.644.07-4.85.07-3.204 0-3.584-.012-4.849-.07-3.26-.149-4.771-1.699-4.919-4.92-.058-1.265-.07-1.644-.07-4.849 0-3.204.013-3.583.07-4.849.149-3.227 1.664-4.771 4.919-4.919 1.266-.057 1.645-.069 4.849-.069zm0-2.163c-3.259 0-3.667.014-4.947.072-4.358.2-6.78 2.618-6.98 6.98-.059 1.281-.073 1.689-.073 4.948 0 3.259.014 3.668.072 4.948.2 4.358 2.618 6.78 6.98 6.98 1.281.058 1.689.072 4.948.072 3.259 0 3.668-.014 4.948-.072 4.354-.2 6.782-2.618 6.979-6.98.059-1.28.073-1.689.073-4.948 0-3.259-.014-3.667-.072-4.947-.196-4.354-2.617-6.78-6.979-6.98-1.281-.059-1.69-.073-4.949-.073zm0 5.838c-3.403 0-6.162 2.759-6.162 6.162s2.759 6.163 6.162 6.163 6.162-2.759 6.162-6.163c0-3.403-2.759-6.162-6.162-6.162zm0 10.162c-2.209 0-4-1.79-4-4 0-2.209 1.791-4 4-4s4 1.791 4 4c0 2.21-1.791 4-4 4zm6.406-11.845c-.796 0-1.441.645-1.441 1.44s.645 1.44 1.441 1.44c.795 0 1.439-.645 1.439-1.44s-.644-1.44-1.439-1.44z" />
+                                                </svg>
+                                            </a>
+                                            <a href="https://www.linkedin.com/in/cl%C3%A9o-benzema-3709172a1/" class="w-10 h-10 rounded-full bg-neutral-200 dark:bg-neutral-700 flex items-center justify-center text-neutral-700 dark:text-neutral-300 hover:bg-purple-100 hover:text-purple-600 dark:hover:bg-purple-900/40 dark:hover:text-purple-400 transition-colors">
+                                                <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5" fill="currentColor" viewBox="0 0 24 24">
+                                                    <path d="M19 0h-14c-2.761 0-5 2.239-5 5v14c0 2.761 2.239 5 5 5h14c2.762 0 5-2.239 5-5v-14c0-2.761-2.238-5-5-5zm-11 19h-3v-11h3v11zm-1.5-12.268c-.966 0-1.75-.79-1.75-1.764s.784-1.764 1.75-1.764 1.75.79 1.75 1.764-.783 1.764-1.75 1.764zm13.5 12.268h-3v-5.604c0-3.368-4-3.113-4 0v5.604h-3v-11h3v1.765c1.396-2.586 7-2.777 7 2.476v6.759z" />
+                                                </svg>
+                                            </a>
+                                            <a href="#" class="w-10 h-10 rounded-full bg-neutral-200 dark:bg-neutral-700 flex items-center justify-center text-neutral-700 dark:text-neutral-300 hover:bg-purple-100 hover:text-purple-600 dark:hover:bg-purple-900/40 dark:hover:text-purple-400 transition-colors">
+                                                <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5" fill="currentColor" viewBox="0 0 24 24">
+                                                    <path d="M12 0c-6.626 0-12 5.373-12 12 0 5.302 3.438 9.8 8.207 11.387.599.111.793-.261.793-.577v-2.234c-3.338.726-4.033-1.416-4.033-1.416-.546-1.387-1.333-1.756-1.333-1.756-1.089-.745.083-.729.083-.729 1.205.084 1.839 1.237 1.839 1.237 1.07 1.834 2.807 1.304 3.492.997.107-.775.418-1.305.762-1.604-2.665-.305-5.467-1.334-5.467-5.931 0-1.311.469-2.381 1.236-3.221-.124-.303-.535-1.524.117-3.176 0 0 1.008-.322 3.301 1.23.957-.266 1.983-.399 3.003-.404 1.02.005 2.047.138 3.006.404 2.291-1.552 3.297-1.23 3.297-1.23.653 1.653.242 2.874.118 3.176.77.84 1.235 1.911 1.235 3.221 0 4.609-2.807 5.624-5.479 5.921.43.372.823 1.102.823 2.222v3.293c0 .319.192.694.801.576 4.765-1.589 8.199-6.086 8.199-11.386 0-6.627-5.373-12-12-12z" />
+                                                </svg>
+                                            </a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+        </div>
+
+
+        <script>
+            document.addEventListener('DOMContentLoaded', function () {
+                // Form submission handling
+                const quoteForm = document.getElementById('quoteForm');
+
+                quoteForm.addEventListener('submit', function (e) {
+                    e.preventDefault();
+
+                    // Here you would normally send the form data to your backend
+                    // For this example, we'll just show a success message
+
+                    // Collect form data
+                    const formData = new FormData(quoteForm);
+                    const formObject = {};
+                    formData.forEach((value, key) => {
+                        // Handle multiple checkboxes
+                        if (key === 'features') {
+                            if (!formObject[key]) {
+                                formObject[key] = [];
+                            }
+                            formObject[key].push(value);
+                        } else {
+                            formObject[key] = value;
+                        }
+                    });
+
+                    // Show success message (in a real implementation, this would happen after AJAX)
+                    quoteForm.innerHTML = `
+                <div class="text-center py-16">
+                  <div class="w-16 h-16 bg-green-100 dark:bg-green-900 rounded-full flex items-center justify-center mx-auto mb-4">
+                    <svg xmlns="http://www.w3.org/2000/svg" class="h-8 w-8 text-green-600 dark:text-green-400" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                      <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7" />
+                    </svg>
+                  </div>
+                  <h3 class="text-2xl font-bold text-neutral-900 dark:text-white mb-2">Demande envoyée avec succès !</h3>
+                  <p class="text-neutral-700 dark:text-neutral-300 mb-6">Nous avons bien reçu votre demande de devis. Notre équipe vous contactera dans les plus brefs délais.</p>
+                  <a href="#" class="inline-block px-6 py-3 bg-purple-600 hover:bg-purple-700 text-white font-semibold rounded-lg transition duration-300">
+                    Retour à l'accueil
+                  </a>
+                </div>
+              `;
+
+                    // Scroll to top of form
+                    quoteForm.scrollIntoView({ behavior: 'smooth' });
+
+                    // Log form data to console (remove in production)
+                    console.log('Form submitted:', formObject);
+                });
+            });
+        </script>
+    </htmlCode>
+    <footer id="footer" class="bg-neutral-900 text-white">
+        <div class="container mx-auto px-4">
+            <!-- Main Footer Content -->
+            <div class="pt-16 pb-8">
+                <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8">
+                    <!-- Column 1: About -->
+                    <div>
+                        <h3 class="text-xl font-bold mb-4">WebCreation</h3>
+                        <p class="text-gray-400 mb-6">Création de sites web professionnels, portfolios, sites vitrines et blogs avec ou sans hébergement personnalisé.</p>
+                        <div class="flex space-x-4">
+                            <a href="#" class="text-gray-400 hover:text-indigo-400 transition-colors">
+                                <svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6" fill="currentColor" viewBox="0 0 24 24">
+                                    <path d="M22.675 0h-21.35c-.732 0-1.325.593-1.325 1.325v21.351c0 .731.593 1.324 1.325 1.324h11.495v-9.294h-3.128v-3.622h3.128v-2.671c0-3.1 1.893-4.788 4.659-4.788 1.325 0 2.463.099 2.795.143v3.24l-1.918.001c-1.504 0-1.795.715-1.795 1.763v2.313h3.587l-.467 3.622h-3.12v9.293h6.116c.73 0 1.323-.593 1.323-1.325v-21.35c0-.732-.593-1.325-1.325-1.325z" />
+                                </svg>
+                            </a>
+                            <a href="#" class="text-gray-400 hover:text-indigo-400 transition-colors">
+                                <svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6" fill="currentColor" viewBox="0 0 24 24">
+                                    <path d="M12 2.163c3.204 0 3.584.012 4.85.07 3.252.148 4.771 1.691 4.919 4.919.058 1.265.069 1.645.069 4.849 0 3.205-.012 3.584-.069 4.849-.149 3.225-1.664 4.771-4.919 4.919-1.266.058-1.644.07-4.85.07-3.204 0-3.584-.012-4.849-.07-3.26-.149-4.771-1.699-4.919-4.92-.058-1.265-.07-1.644-.07-4.849 0-3.204.013-3.583.07-4.849.149-3.227 1.664-4.771 4.919-4.919 1.266-.057 1.645-.069 4.849-.069zm0-2.163c-3.259 0-3.667.014-4.947.072-4.358.2-6.78 2.618-6.98 6.98-.059 1.281-.073 1.689-.073 4.948 0 3.259.014 3.668.072 4.948.2 4.358 2.618 6.78 6.98 6.98 1.281.058 1.689.072 4.948.072 3.259 0 3.668-.014 4.948-.072 4.354-.2 6.782-2.618 6.979-6.98.059-1.28.073-1.689.073-4.948 0-3.259-.014-3.667-.072-4.947-.196-4.354-2.617-6.78-6.979-6.98-1.281-.059-1.69-.073-4.949-.073zm0 5.838c-3.403 0-6.162 2.759-6.162 6.162s2.759 6.163 6.162 6.163 6.162-2.759 6.162-6.163c0-3.403-2.759-6.162-6.162-6.162zm0 10.162c-2.209 0-4-1.79-4-4 0-2.209 1.791-4 4-4s4 1.791 4 4c0 2.21-1.791 4-4 4zm6.406-11.845c-.796 0-1.441.645-1.441 1.44s.645 1.44 1.441 1.44c.795 0 1.439-.645 1.439-1.44s-.644-1.44-1.439-1.44z" />
+                                </svg>
+                            </a>
+                            <a href="#" class="text-gray-400 hover:text-indigo-400 transition-colors">
+                                <svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6" fill="currentColor" viewBox="0 0 24 24">
+                                    <path d="M24 4.557c-.883.392-1.832.656-2.828.775 1.017-.609 1.798-1.574 2.165-2.724-.951.564-2.005.974-3.127 1.195-.897-.957-2.178-1.555-3.594-1.555-3.179 0-5.515 2.966-4.797 6.045-4.091-.205-7.719-2.165-10.148-5.144-1.29 2.213-.669 5.108 1.523 6.574-.806-.026-1.566-.247-2.229-.616-.054 2.281 1.581 4.415 3.949 4.89-.693.188-1.452.232-2.224.084.626 1.956 2.444 3.379 4.6 3.419-2.07 1.623-4.678 2.348-7.29 2.04 2.179 1.397 4.768 2.212 7.548 2.212 9.142 0 14.307-7.721 13.995-14.646.962-.695 1.797-1.562 2.457-2.549z" />
+                                </svg>
+                            </a>
+                            <a href="#" class="text-gray-400 hover:text-indigo-400 transition-colors">
+                                <svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6" fill="currentColor" viewBox="0 0 24 24">
+                                    <path d="M12 0c-6.626 0-12 5.373-12 12 0 5.302 3.438 9.8 8.207 11.387.599.111.793-.261.793-.577v-2.234c-3.338.726-4.033-1.416-4.033-1.416-.546-1.387-1.333-1.756-1.333-1.756-1.089-.745.083-.729.083-.729 1.205.084 1.839 1.237 1.839 1.237 1.07 1.834 2.807 1.304 3.492.997.107-.775.418-1.305.762-1.604-2.665-.305-5.467-1.334-5.467-5.931 0-1.311.469-2.381 1.236-3.221-.124-.303-.535-1.524.117-3.176 0 0 1.008-.322 3.301 1.23.957-.266 1.983-.399 3.003-.404 1.02.005 2.047.138 3.006.404 2.291-1.552 3.297-1.23 3.297-1.23.653 1.653.242 2.874.118 3.176.77.84 1.235 1.911 1.235 3.221 0 4.609-2.807 5.624-5.479 5.921.43.372.823 1.102.823 2.222v3.293c0 .319.192.694.801.576 4.765-1.589 8.199-6.086 8.199-11.386 0-6.627-5.373-12-12-12z" />
+                                </svg>
+                            </a>
+                        </div>
+                    </div>
+
+                    <!-- Column 2: Services -->
+                    <div>
+                        <h3 class="text-xl font-bold mb-4">Services</h3>
+                        <ul class="space-y-2">
+                            <li>
+                                <a href="#portfolio-intro" class="text-gray-400 hover:text-indigo-400 transition-colors flex items-center">
+                                    <svg xmlns="http://www.w3.org/2000/svg" class="h-4 w-4 mr-2" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 5l7 7-7 7" />
+                                    </svg>
+                                    Portfolio professionnel
+                                </a>
+                            </li>
+                            <li>
+                                <a href="#portfolio-intro" class="text-gray-400 hover:text-indigo-400 transition-colors flex items-center">
+                                    <svg xmlns="http://www.w3.org/2000/svg" class="h-4 w-4 mr-2" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 5l7 7-7 7" />
+                                    </svg>
+                                    Site vitrine
+                                </a>
+                            </li>
+                            <li>
+                                <a href="#portfolio-intro" class="text-gray-400 hover:text-indigo-400 transition-colors flex items-center">
+                                    <svg xmlns="http://www.w3.org/2000/svg" class="h-4 w-4 mr-2" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 5l7 7-7 7" />
+                                    </svg>
+                                    Blog personnalisé
+                                </a>
+                            </li>
+                            <li>
+                                <a href="#process" class="text-gray-400 hover:text-indigo-400 transition-colors flex items-center">
+                                    <svg xmlns="http://www.w3.org/2000/svg" class="h-4 w-4 mr-2" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 5l7 7-7 7" />
+                                    </svg>
+                                    Hébergement web
+                                </a>
+                            </li>
+                            <li>
+                                <a href="#process" class="text-gray-400 hover:text-indigo-400 transition-colors flex items-center">
+                                    <svg xmlns="http://www.w3.org/2000/svg" class="h-4 w-4 mr-2" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 5l7 7-7 7" />
+                                    </svg>
+                                    Domaine personnalisé
+                                </a>
+                            </li>
+                        </ul>
+                    </div>
+
+                    <!-- Column 3: Réalisations -->
+                    <div>
+                        <h3 class="text-xl font-bold mb-4">Réalisations</h3>
+                        <ul class="space-y-2">
+                            <li>
+                                <a href="#portfolio-cases" class="text-gray-400 hover:text-indigo-400 transition-colors flex items-center">
+                                    <svg xmlns="http://www.w3.org/2000/svg" class="h-4 w-4 mr-2" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 5l7 7-7 7" />
+                                    </svg>
+                                    Portfolios
+                                </a>
+                            </li>
+                            <li>
+                                <a href="#showcase-cases" class="text-gray-400 hover:text-indigo-400 transition-colors flex items-center">
+                                    <svg xmlns="http://www.w3.org/2000/svg" class="h-4 w-4 mr-2" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 5l7 7-7 7" />
+                                    </svg>
+                                    Sites vitrines
+                                </a>
+                            </li>
+                            <li>
+                                <a href="#testimonials" class="text-gray-400 hover:text-indigo-400 transition-colors flex items-center">
+                                    <svg xmlns="http://www.w3.org/2000/svg" class="h-4 w-4 mr-2" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 5l7 7-7 7" />
+                                    </svg>
+                                    Témoignages clients
+                                </a>
+                            </li>
+                        </ul>
+                    </div>
+
+                    <!-- Column 4: Contact -->
+                    <div>
+                        <h3 class="text-xl font-bold mb-4">Contact</h3>
+                        <ul class="space-y-4">
+                            <li class="flex items-start">
+                                <svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6 text-indigo-400 mr-2 shrink-0" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M3 8l7.89 5.26a2 2 0 002.22 0L21 8M5 19h14a2 2 0 002-2V7a2 2 0 00-2-2H5a2 2 0 00-2 2v10a2 2 0 002 2z" />
+                                </svg>
+                                <span class="text-gray-400">athenapro.b@gmail.com</span>
+                            </li>
+                            <li class="flex items-start">
+                                <svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6 text-indigo-400 mr-2 shrink-0" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M3 5a2 2 0 012-2h3.28a1 1 0 01.948.684l1.498 4.493a1 1 0 01-.502 1.21l-2.257 1.13a11.042 11.042 0 005.516 5.516l1.13-2.257a1 1 0 011.21-.502l4.493 1.498a1 1 0 01.684.949V19a2 2 0 01-2 2h-1C9.716 21 3 14.284 3 6V5z" />
+                                </svg>
+                                <span class="text-gray-400">+33 6 12 34 56 78</span>
+                            </li>
+                            <li>
+                                <a href="#cta" class="inline-block bg-indigo-600 hover:bg-indigo-700 text-white font-medium py-2 px-4 rounded-lg transition-all duration-300 mt-2">
+                                    Demander un devis
+                                </a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Divider -->
+            <div class="border-t border-neutral-800 py-8">
+                <div class="flex flex-col md:flex-row justify-between items-center">
+                    <p class="text-gray-400 text-sm mb-4 md:mb-0">&copy; 2023 WebCreation. Tous droits réservés.</p>
+                    <div class="flex space-x-6">
+                        <a href="#" class="text-gray-400 hover:text-indigo-400 transition-colors text-sm">Politique de confidentialité</a>
+                        <a href="#" class="text-gray-400 hover:text-indigo-400 transition-colors text-sm">Mentions légales</a>
+                        <a href="#" class="text-gray-400 hover:text-indigo-400 transition-colors text-sm">CGV</a>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Back to top button -->
+            <div class="flex justify-center pb-6">
+                <a href="#hero" class="inline-flex items-center justify-center w-10 h-10 rounded-full bg-neutral-800 hover:bg-indigo-600 transition-all duration-300 text-white">
+                    <svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 10l7-7m0 0l7 7m-7-7v18" />
+                    </svg>
+                </a>
+            </div>
+        </div>
+    </footer>
+    </div>
+
+
+    <script>
+        document.addEventListener('DOMContentLoaded', () => {
+            // Smooth scroll for anchors
+            document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+                anchor.addEventListener('click', function (e) {
+                    e.preventDefault();
+
+                    const targetId = this.getAttribute('href');
+                    const targetElement = document.querySelector(targetId);
+
+                    if (targetElement) {
+                        window.scrollTo({
+                            top: targetElement.offsetTop,
+                            behavior: 'smooth'
+                        });
+                    }
+                });
+            });
+
+            // Back to top button functionality
+            const backToTopButton = document.querySelector('a[href="#hero"]');
+
+            if (backToTopButton) {
+                // Initially hide the button
+                backToTopButton.style.opacity = "0";
+                backToTopButton.style.visibility = "hidden";
+
+                window.addEventListener('scroll', () => {
+                    if (window.pageYOffset > 300) {
+                        backToTopButton.style.opacity = "1";
+                        backToTopButton.style.visibility = "visible";
+                    } else {
+                        backToTopButton.style.opacity = "0";
+                        backToTopButton.style.visibility = "hidden";
+                    }
+                });
+            }
+        });
+    </script>
